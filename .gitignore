@@ -1,0 +1,9 @@
+.gradle
+.settings
+bin
+build
+.classpath
+.project
+*.raw
+*.mp4
+*.wav
