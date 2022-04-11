@@ -67,7 +67,7 @@ public class Main {
 				while (true) {
 					IVideoFrame videoFrame = videoStream.nextFrame();
 					BufferedImage image = videoFrame.image();
-					while (System.currentTimeMillis() < renderNextFrameAt) {}
+					while (System.currentTimeMillis() < renderNextFrameAt+100) {}
 					g.drawImage(image, 0, 0, 1920, 1080, null);
 					renderNextFrameAt = time + (videoFrame.nanostamp() / 1000000);
 				}
