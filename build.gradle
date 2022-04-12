@@ -7,7 +7,5 @@ repositories {
 }
 
 dependencies {
-	implementation files("JAsioHost.jar")
-	implementation 'com.github.zakgof:velvet-video:0.5.2'
-    implementation 'com.github.zakgof:velvet-video-natives:0.2.8.full'
+	implementation 'com.github.sjoerdvankreel:xt.audio:2.0'
 }
