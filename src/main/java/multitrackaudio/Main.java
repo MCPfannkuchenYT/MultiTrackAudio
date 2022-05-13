@@ -24,7 +24,7 @@ import com.zakgof.velvetvideo.impl.VelvetVideoLib;
 
 public class Main {
 
-	public static final AudioFormat FORMAT = new AudioFormat(44100.0f, 16, 2, true, false);
+	public static final AudioFormat FORMAT = new AudioFormat(96000.0f, 16, 2, true, false);
 	public static List<Clip> launch = new ArrayList<>();
 	
 	public static void main(String[] args) throws Exception {

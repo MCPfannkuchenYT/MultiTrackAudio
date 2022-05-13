@@ -40,7 +40,7 @@ public class ASIOHandler {
 	
 	public void start() {
 		// Prepare ASIO Device
-		asioDriver = AsioDriver.getDriver(AsioDriver.getDriverNames().get(1));
+		asioDriver = AsioDriver.getDriver(AsioDriver.getDriverNames().get(2));
 		int bufferSize = asioDriver.getBufferPreferredSize();
 		
 		// Add listener for ASIO packets
